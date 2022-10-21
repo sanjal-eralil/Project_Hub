@@ -1,0 +1,122 @@
+body{
+  font-family: sans-serif;
+  background-color: #673ab7 !important;
+
+}
+
+
+/*this is for the navbar*/
+.navbar{
+  height:20%;
+  background-color: #5F9EA0;
+}
+.navi{
+  width: 100%;
+   margin-top: 0;
+ }
+
+
+
+.blog-post{
+  display: flex;
+  flex-direction: row;
+  margin: 10rem;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.blog-post-img{
+  flex: 1;
+  padding: 2rem 2rem 2rem 0rem;
+}
+
+.blog-post-img>img{
+  width:420;
+  height:315;
+  border-radius: 0.3rem;
+  object-fit: cover;
+  transform: translate(-50px);
+  box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.5);
+}
+
+.blog-post-info{
+  flex:2;
+  padding: 2rem;
+}
+
+.blog-post-title h2{
+  color:#673AB7;
+  text-transform:uppercase;
+}
+
+.blof-post-read-more a{
+  cursor:pointer;
+  font-family: normal;
+  border-radius: 0.3rem;
+  padding:0.5rem;
+  background-color: #fff;
+  border:1px solid #673AB7;
+  color: #673AB7 !important;
+  box-shadow: 0 0.05emm 0.1em rgba(0,0,0,0.25);
+}
+.blog-post-read-more a:hover{
+  transition: 0.5s;
+  background-color: #673AB7;
+  border:1px solid #673AB7;
+  color: #fff ;
+  text-decoration: none;
+
+}
+
+
+/*this is for the responsiveness of the website not necessary*/
+@media only screen and(max-width:600px){
+
+  .blog-post{
+    display: flex;
+    flex-direction: column;
+    margin: 10rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+
+  .blog-post-img{
+    flex: 1;
+    padding: 2rem 2rem 0rem 1rem;
+  }
+
+  .blog-post-img>img{
+    width:60%;
+    height:40%;
+    border-radius: 0.3rem;
+    object-fit: cover;
+    transform: translate(-50px);
+    box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.5);
+  }
+
+  .blog-post-info{
+    flex:2;
+    padding: 0rem 1rem 2rem 1rem;
+  }
+}
+ @media only screen and (min-width:992px) {
+   .blog-post{
+     display: flex;
+     flex-direction: row;
+     margin: 10rem;
+     justify-content: center;
+     align-items: center;
+     background-color: white;
+
+   }
+
+   .blog-post-img{
+     flex: 1;
+     padding: 2rem 2rem 2rem 0rem;
+   }
+ }

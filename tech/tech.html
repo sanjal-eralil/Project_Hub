@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title></title>
+  </head>
+  <body>
+    <!--this is the basic navbar-->
+    <div class="navbar">
+
+   <nav  class="navbar navbar-expand-lg navbar-light bg-light navi" class="navbar-nav">
+ <div class="container-fluid">
+   <a class="navbar-brand" href="../index.html">Home</a>
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       <li class="nav-item">
+         <a class="nav-link active" aria-current="page" href="../project/project.html">Project</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#">About Us</a>
+       </li>
+       <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Projects
+         </a>
+         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <li><a class="dropdown-item" href="../tech/tech.html">Tech</a></li>
+           <li><a class="dropdown-item" href="../nontech/nontech.html">Nontech</a></li>
+           <li><hr class="dropdown-divider"></li>
+           <li><a class="dropdown-item" href="#">Other</a></li>
+         </ul>
+       </li>
+
+
+       <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Contribute
+         </a>
+         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <li><a class="dropdown-item" href="../form/form.html">Add Project</a></li>
+           <li><a class="dropdown-item" href="#"></a></li>
+           <li><hr class="dropdown-divider"></li>
+           <li><a class="dropdown-item" href="../form2/form2.html">Delete Project</a></li>
+         </ul>
+       </li>
+
+     </ul>
+     <form class="d-flex">
+       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+       <button class="btn btn-outline-success" type="submit">Search</button>
+     </form>
+   </div>
+ </div>
+ </nav>
+ </div>
+
+ <h1>TECHNICAL PROJECTS</h1>
+
+<!--This is the code for the rendering of the cards-->
+ <div class="container">
+     <div class="row" style="margin:5%">
+        <div class="col card" style="margin:2%; border-radius: 10%;">
+           <div class="c" style="width: 18rem;" >
+
+
+  <img src="ige1.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">DHT11 Temperature/Humidity Sensor</h5>
+    <p class="card-text">
+In this project, we will use the ky-015 arduino dht11 temperature/humidity sensor and display it to the arduino ide serial monitor. this project is really simple and shouldn't take us very long.
+
+materials
+the materials are here as follows:
+
+arduino uno (any "uno" will work, i have a geekcreit uno)
+ky-015 arduino dht11 temperature/humidity
+</p>
+    <a href="https://create.arduino.cc/projecthub/techno_z/dht11-temperature-humidity-sensor-98b03b?ref=platform&ref_id=424_trending___&offset=5" class="btn btn-primary">View Project</a>
+  </div>
+</div>
+         </div>
+
+         <!card 2-->
+
+         <div class="col card" style="margin:2%; border-radius: 10%;">
+           <div class="c" style="width: 18rem;" >
+
+
+  <img src="ige2.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Automatic Plant Watering System Using Arduino Uno cGPL3++</h5>
+    <p class="card-text">
+      Whenever me and my family go for vacations, I used to get worried about my plants because they need water on regular basis. I gone through several options to solve this problem as plants need water according to the moisture level of soil. So I have made Automatic Plant Watering System Using Arduino UNO.
+
+      In this system, soil moisture sensor senses  moisture.
+</p>
+    <a href="https://create.arduino.cc/projecthub/neetithakur/automatic-plant-watering-system-using-arduino-uno-8764ba?ref=platform&ref_id=424_trending___&offset=14" class="btn btn-primary">View Project</a>
+  </div>
+</div>
+         </div>
+
+         <!card3-->
+         <div class="col card" style="margin:2%; border-radius: 10%;">
+           <div class="c" style="width: 18rem;" >
+
+
+           <img src="ige3.png" class="card-img-top" alt="...">
+           <div class="card-body">
+           <h5 class="card-title">Plant Monitoring System © MIT</h5>
+           <p class="card-text">
+             This is a simple plant monitoring system made using the MKR1000, Standard Firmata Wifi sketch along with Johnny-Five and Node.
+
+  I started off by loading the MKR1000 with the StandardFirmataWifi sketch. This will allow us to communicate with the board using Johnny-Five.
+
+  Open Arduino IDE
+  File -> Examples -> Firmata -> StandardFirmataWifi Switch to the 2nd tab.
+
+           </p>
+           <a href="https://create.arduino.cc/projecthub/ryanjgill2/plant-monitoring-system-88ed2b?ref=platform&ref_id=424_trending___&offset=28" class="btn btn-primary">View Project</a>
+           </div>
+           </div>
+          </div>
+     </div>
+     <div class="row" style="margin:5%;">
+       <!card4-->
+         <div class="col card" style="margin:2%; border-radius: 10%;">
+           <div class="col card" style="margin:2%;">
+             <div class="c" style="width: 18rem;" >
+
+
+             <img src="ige4.png" class="card-img-top" alt="...">
+             <div class="card-body">
+             <h5 class="card-title">ATtiny85 Pulse Oximeter and Photoplethysmograph</h5>
+             <p class="card-text">
+               This project implemented on an ATtiny85 displays a moving Photoplethysmogram together with pulse rate and estimates of SpO2 - blood oxygen percentage. It uses an SSD1306 128x32 OLED display and a MAX30102 sensor. It is emphasised that this should not be used for medical purposes. The computation of SpO2 is very approximate.
+
+             </p>
+             <a href="https://create.arduino.cc/projecthub/jeffreymagee/attiny85-pulse-oximeter-and-photoplethysmograph-e3f907?ref=platform&ref_id=424_trending___&offset=0" class="btn btn-primary">View Project</a>
+             </div>
+             </div>
+            </div>
+         </div>
+         <!card5-->
+         <div class="col card" style="margin:2%; border-radius: 10%;">
+           <div class="c" style="width: 18rem;" >
+
+
+           <img src="ige5.png" class="card-img-top" alt="...">
+           <br><br>
+           <div class="card-body">
+
+           <h5 class="card-title">EASY TRASH</h5>
+           <p class="card-text">
+             The first mechanism is the automatic opening and closing system. In this mechanism we uses PIR Motion Sensor attached to the front of the trash can to detect an incoming motion. The sensor itself we configured manually to limit the range that it can detect only to about 50 cm in front of it.
+
+When the sensor detect a motion, it will send the data to the Arduino and it will send the sensor status to the app and also most importantly trigger the trash.
+           </p>
+           <a href="https://create.arduino.cc/projecthub/neetithakur/automatic-plant-watering-system-using-arduino-uno-8764ba?ref=platform&ref_id=424_trending___&offset=14" class="btn btn-primary">View Project</a>
+           </div>
+           </div>
+         </div>
+         <div class="col card" style="margin:2%; border-radius: 10%;">
+           <div class="c" style="width: 18rem;" >
+
+
+           <img src="ige6.png" class="card-img-top" alt="...">
+           <div class="card-body">
+           <h5 class="card-title">Measure Heart Rate and SpO2 with MAX30102 (name)</h5>
+           <p class="card-text">
+             we gonna interface MAX30102: pulse oximetry and heart rate monitor module with Arduino UNO board, and then make a project for measuring BPM using this module + OLED display and a Buzzer.
+
+BPM are the "beats per minute" and they are around 65-75 while resting for a normal person, athletics may have lower than that,and the SpO2 is the Oxygen saturation level.
+           </p>
+           <a href="https://create.arduino.cc/projecthub/jeffreymagee/attiny85-pulse-oximeter-and-photoplethysmograph-e3f907?ref=platform&ref_id=424_trending___&offset=0" class="btn btn-primary">View Project</a>
+           </div>
+           </div>
+         </div>
+     </div>
+ </div>
+
+
+  </body>
+</html>
